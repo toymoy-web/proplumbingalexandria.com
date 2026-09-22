@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://proplumbingalexandria.com/sitemap.xml
