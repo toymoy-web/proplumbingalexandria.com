@@ -43,9 +43,6 @@ nav.navlinks{display:flex;align-items:center}
 .badge:before{content:"●";color:var(--amber);font-size:10px}
 .badge-alt{background:var(--amber);color:var(--ink);box-shadow:0 6px 16px rgba(245,166,35,.35)}
 .badge-alt:before{content:"●";color:var(--indigo);font-size:10px}
-.photobanner{margin:0 0 4px}
-.photobanner img{width:100%;aspect-ratio:16/7;object-fit:cover;border-radius:18px;display:block}
-.photobanner.narrow img{aspect-ratio:4/3}
 .hero h1{font-size:clamp(30px,4.4vw,44px);line-height:1.12;margin-bottom:16px;color:var(--ink)}
 .table-wrap{overflow-x:auto;margin:16px 0}
 .table-wrap table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:480px}
@@ -231,3 +228,22 @@ footer.sitefoot .social a{display:inline-flex;width:34px;height:34px;border-radi
 #mobile-menu .mm-sub{padding-left:12px}
 #mobile-menu .mm-sub a{font-weight:600;font-size:14.5px;color:var(--gray);padding:10px 4px}
 #mobile-menu .mm-label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--indigo);font-weight:800;padding:12px 4px 4px}
+
+.pagehead.has-img{background:linear-gradient(100deg,rgba(18,18,60,.90) 0%,rgba(18,18,60,.72) 55%,rgba(18,18,60,.45) 100%),var(--hero-img) center/cover no-repeat;padding:68px 0}
+.pagehead.has-img h1{color:#fff}
+.pagehead.has-img p{color:rgba(255,255,255,.9)}
+.pagehead.has-img .crumb{color:rgba(255,255,255,.8)}
+.pagehead.has-img .crumb a{color:var(--amber)}
+.hero.has-img{background:linear-gradient(100deg,rgba(18,18,60,.92) 0%,rgba(18,18,60,.75) 50%,rgba(18,18,60,.40) 100%),var(--hero-img) center/cover no-repeat}
+.hero.has-img h1{color:#fff}
+.hero.has-img h1 span{color:var(--amber)}
+.hero.has-img p.lede{color:rgba(255,255,255,.9)}
+.hero.has-img .trustrow{color:rgba(255,255,255,.88)}
+.hero.has-img .trustrow span:before{color:var(--amber)}
+@media(max-width:760px){.pagehead.has-img{padding:44px 0}.hero.has-img{background:linear-gradient(180deg,rgba(18,18,60,.88),rgba(18,18,60,.78)),var(--hero-img) center/cover no-repeat}}
+
+.pagehead.has-img,.hero.has-img{background-color:#23236f}
+
+footer.sitefoot .social a{font-size:12px;font-weight:800;color:var(--indigo);text-decoration:none}
+footer.sitefoot .social a:hover{background:var(--indigo);color:#fff}
+footer.sitefoot .social{flex-wrap:wrap}

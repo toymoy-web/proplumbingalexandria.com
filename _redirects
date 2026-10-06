@@ -1,2 +1,5 @@
-# No redirects needed — Cloudflare Pages resolves clean URLs and
-# slug/index.html routing natively.
+# Retired overlapping neighborhood pages, folded into the nearest service area
+/plumber-landmark-va/ /plumber-west-end-va/ 301
+/plumber-landmark-va /plumber-west-end-va/ 301
+/plumber-eisenhower-east-va/ /plumber-carlyle-va/ 301
+/plumber-eisenhower-east-va /plumber-carlyle-va/ 301
