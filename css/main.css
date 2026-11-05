@@ -247,3 +247,7 @@ footer.sitefoot .social a{display:inline-flex;width:34px;height:34px;border-radi
 footer.sitefoot .social a{font-size:12px;font-weight:800;color:var(--indigo);text-decoration:none}
 footer.sitefoot .social a:hover{background:var(--indigo);color:#fff}
 footer.sitefoot .social{flex-wrap:wrap}
+
+@media(max-width:400px){footer.sitefoot .wrap{grid-template-columns:1fr}}
+.twocol>*{min-width:0}
+.sign h3,.tcard .tc-h,.local h3{overflow-wrap:anywhere}
